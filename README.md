@@ -22,3 +22,12 @@ sudo python phidgetrelay.py
 ```
 In rare cases, if you are using a different WoTKit API end-point, you can configure the *STS_BASE_URL='http://wotkit.sensetecnic.com/api'* variable to your desired end point.
 
+We have provided a shell script ```runwotkitdemo.sh``` that runs in the background and outputs to logs/log. Run with with:
+
+```
+sudo sh runwotkitdemo.sh
+```
+
+
+
+
